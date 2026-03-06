@@ -1,0 +1,101 @@
+version: "3.1"
+
+nlu:
+- intent: greet
+  examples: |
+    - hey
+    - hello
+    - hi
+    - hello there
+    - good morning
+    - good evening
+    - moin
+    - hey there
+    - let's go
+    - hey dude
+    - goodmorning
+    - goodevening
+    - good afternoon
+
+- intent: goodbye
+  examples: |
+    - cu
+    - good by
+    - cee you later
+    - good night
+    - bye
+    - goodbye
+    - have a nice day
+    - see you around
+    - bye bye
+    - see you later
+
+- intent: affirm
+  examples: |
+    - yes
+    - y
+    - indeed
+    - of course
+    - that sounds good
+    - correct
+
+- intent: deny
+  examples: |
+    - no
+    - n
+    - never
+    - I don't think so
+    - don't like that
+    - no way
+    - not really
+
+- intent: bot_challenge
+  examples: |
+    - are you a bot?
+    - are you a human?
+    - am I talking to a bot?
+    - am I talking to a human?
+
+- intent: inspiration_quote
+  examples: |
+    - give me an inspirational quote
+    - inspire me
+    - I need inspiration
+    - inspirational quote please
+    - something inspiring
+    - quote for inspiration
+    - motivate and inspire me
+    - inspire me today
+    
+- intent: motivation_quote
+  examples: |
+    - give me a motivational quote
+    - motivate me
+    - I need motivation
+    - inspire me
+    - motivational quote please
+    - something inspiring
+
+- intent: love_quote
+  examples: |
+    - give me a love quote
+    - romantic quote please
+    - quote about love
+    - tell me something about love
+    - love quote
+
+- intent: success_quote
+  examples: |
+    - quote about success
+    - inspire me for success
+    - success motivation
+    - tell me a success quote
+    - how to stay successful
+
+- intent: humor_quote
+  examples: |
+    - tell me something funny
+    - funny quote please
+    - make me laugh
+    - joke quote
+    - humor quote    

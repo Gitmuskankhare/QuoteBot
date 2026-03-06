@@ -1,0 +1,44 @@
+version: "3.1"
+
+intents:
+- greet
+- goodbye
+- affirm
+- deny
+- bot_challenge
+- motivation_quote
+- love_quote
+- success_quote
+- humor_quote
+- inspiration_quote
+
+responses:
+
+  utter_greet:
+  - text: "Hello! I can recommend quotes for motivation, inspiration, love, success, or humor. What would you like?"
+
+  utter_goodbye:
+  - text: "Goodbye! Stay positive and inspired."
+
+  utter_love_quote:
+  - text: "Love is composed of a single soul inhabiting two bodies."
+
+  utter_success_quote:
+  - text: "Success usually comes to those who are too busy to be looking for it."
+
+  utter_humor_quote:
+  - text: "I'm not lazy, I'm just on energy-saving mode."
+
+  utter_iamabot:
+  - text: "I am a chatbot built to recommend quotes."
+
+actions:
+- action_motivation_quote
+- action_inspiration_quote
+- action_love_quote
+- action_success_quote
+- action_humor_quote
+
+session_config:
+  session_expiration_time: 60
+  carry_over_slots_to_new_session: true

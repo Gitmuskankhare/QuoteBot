@@ -1,0 +1,10 @@
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.env
+.rasa
+models
+node_modules
+rasa_env
+dist
