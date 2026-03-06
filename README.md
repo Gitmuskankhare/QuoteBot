@@ -10,6 +10,10 @@ Technologies used:
 - React (Vite)
 - Framer Motion
 
+## Chatbot Interface
+
+![Quote Chatbot UI](screenshot/QuoteBot-ui.png)
+
 To run the project:
 
 1. Start the Rasa action server
